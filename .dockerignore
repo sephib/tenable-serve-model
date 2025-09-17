@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv
+.env
+*.egg-info
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development
+.pytest_cache
+.coverage
+.mypy_cache
+.ruff_cache
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Data (model will be downloaded in container)
+data/
+
+# Logs
+*.log
