@@ -1,0 +1,17 @@
+[default]
+data_dir = "../data"
+
+
+[default.model]
+name = "intfloat/multilingual-e5-small"
+local_path = "../data/models/multilingual-e5-small"
+max_length = 512
+
+[default.server]
+host = "0.0.0.0"
+port = 8000
+reload = false
+
+[default.inference]
+batch_size = 1
+device = "cpu"
